@@ -1,0 +1,124 @@
+
+#Header{
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("images/bg2.png");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.nav-item, navbar-brand{
+  color: white;
+  font-size: 1rem;
+}
+
+.BRAND{
+  color: white;
+  padding-left: 100px;
+  margin-top: 30px;
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
+}
+.nav-item{
+  margin: auto 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.Heading{
+  color: white;
+  font-size: 4rem;
+  padding-top: 130px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+#About{
+  height: 600px;
+    text-align: center;
+}
+
+.about{
+  width: 50%;
+  margin: 50px auto;
+  line-height: 2rem;
+  margin-bottom: 50px;
+  font-size: 1rem;
+  padding-bottom: 60px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+
+#carousel{
+  height: 650px;
+}
+.container{
+  padding-top: 120px;
+}
+ .resize{
+padding: 350px auto;
+   width:1180px;
+   height:602px;
+   margin: 60px auto;
+ }
+
+ #How{
+   height: 600px;
+   text-align: center;
+   margin:10px;
+   position: relative;
+   top:50px;
+
+ }
+ .select{
+   margin:auto 80px 180px;
+ }
+ .container1 {
+   position: relative;
+   width: 50%;
+ }
+
+ .image {
+   display: block;
+   width: 100%;
+   height: auto;
+ }
+
+ .overlay {
+   position: absolute;
+   bottom: 100%;
+   left: 0;
+   right: 0;
+   background-color: #faed27;
+   overflow: hidden;
+   width: 100%;
+   height:0;
+   transition: .5s ease;
+ }
+
+ .container1:hover .overlay {
+   bottom: 0;
+   height: 100%;
+ }
+
+ .text {
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+
+ .how{
+   padding-top: 60px;
+ }
+
+ .row{
+   padding-top: 100px;
+ }
